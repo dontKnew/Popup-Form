@@ -1,0 +1,137 @@
+/* Start Registration CSS */
+.registration-form{
+  background-color: #fff;
+  box-shadow: 4px 4px 2px var(--backgroundbrown), -4px -4px 2px var(--backgroundbrown);
+  width: 400px;
+  border-radius:5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: form 1s;
+}
+@keyframes form {
+  from{opacity:0}
+  to{opacity:1}
+}
+.registration-header{
+  border:2px solid var(--backgroundbrown);
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  padding:10px;
+}
+.registration-header > .form-header{
+  color:var(--black);
+  font-size:25px;
+  text-align:center;
+  font-weight: bolder;
+}
+.registration-header > span{
+  color:var(--textbrown);
+}
+form  {
+  padding:10px 5px 10px 5px;
+}
+form > div > input {
+  margin-top:5px;
+  margin-bottom:5px;
+  border-radius: 3px;
+  border: 1px solid var(--frbrown);
+  background-color: #F5F6F7;
+}
+form > div > input:focus {
+  outline:none;
+}
+.registration-number {
+  display: flex;
+  justify-content: center;
+}
+.registration-number >input {
+  padding:5px;
+  width: 100%;
+  margin-left:2px;
+  margin-right:2px;
+}
+.registration-email {
+  display: flex;
+  justify-content: center;
+}
+.registration-email >input {
+  padding:5px;
+  width: 100%;
+  margin-left:2px;
+  margin-right:2px;
+}
+div.registration-name {
+  display: flex;
+  justify-content: center;
+  
+}
+.registration-name > input {
+   padding:5px;
+   width: 100%;
+   margin-left:2px;
+   margin-right:2px;
+}
+form > label > small {
+  color:var(--textbrown);
+}
+.registration-DOB{
+  display: flex;
+  justify-content: space-between;
+}
+.registration-DOB > select{
+  padding:5px 25px 5px 20px;
+  border:1px solid #dbdddf;
+  border-radius: 3px;
+}
+.registration-gender{
+  display: flex;
+  justify-content: space-between;
+}
+.registration-gender > div{
+  margin-bottom:5px;
+  padding:4px 20px 4px 20px;
+  border:1px solid #dbdddf;
+  border-radius: 3px;
+  font-size:14px;
+}
+form > small{
+  color:var(--textbrown);
+  font-size:12px;
+}
+form > small span {
+  color:var(--blue);
+}
+.registration-sign-up-btn{
+  margin-top:10px;
+  text-align: center;
+}
+.registration-sign-up-btn > input {
+  color:white;
+  background-color: rgb(17, 192, 17);
+  padding:5px 50px ;
+  font-weight: bolder;
+  border-radius: 3px;
+  border:2px solid rgb(17, 192, 17);
+  cursor: pointer;
+}
+
+.registration-form-close{
+  width: 30px;
+  float:right;
+  background-color:var(--backgroundbrown);
+  border-radius:50%;
+  font-weight: bolder;
+  font-size:25px;
+  cursor: pointer;
+}
+.registration-form-close{
+  color:var(--textbrown);
+  text-align: center;
+}
+
+/* End Registration CSS */
